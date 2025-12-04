@@ -1,0 +1,27 @@
+# Requirements for 3D Heart Chamber Segmentation with Swin Transformer + GAT
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision
+einops>=0.6.0  # For tensor rearrangement in Swin Transformer
+
+# Medical Image Processing
+nibabel
+scikit-image
+scipy
+
+# Data Processing & Visualization
+numpy
+matplotlib
+
+# Training Utilities
+tqdm
+
+# Optional: For faster data loading
+# pillow>=8.3.0
+
+# Interactive 3D Visualization
+plotly
+pyvista
+pyvistaqt
+vtk
