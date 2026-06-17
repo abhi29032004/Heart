@@ -68,3 +68,26 @@ Thumbs.db
 *.tmp
 *.temp
 *.bak
+
+# Paper / LaTeX source (not for public distribution)
+Paper/
+
+# Rebuttal and internal review documents
+REBUTTAL.md
+REBUTTAL_META_REVIEW.md
+REBUTTAL_REVIEWER_2.md
+REBUTTAL_REVIEWER_3.md
+RUN_ABLATION_STUDIES.md
+
+# Evaluation and compile logs
+eval_output.log
+texput.log
+
+# Duplicate result folders
+ablation_results copy/
+
+# Generated mesh comparison outputs
+mc_comparison_meshes/
+
+# Claude IDE workspace data
+.claude/
