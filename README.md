@@ -118,7 +118,7 @@ The model reconstructs **7 cardiac structures simultaneously** from a single CT 
 ### Setup
 
 ```bash
-git clone https://github.com/abhi29032004/heart.git
+git clone https://github.com/abhishek-jois/Heart.git
 cd heart
 
 # Create and activate virtual environment
